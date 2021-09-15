@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon.png" />
   <script>
     (() => {
-      const page = "{{ page.title }}" || "Home";
+      // const page = "{{ page.title }}" || "Home";
       const title = document.querySelector("title");
       const name = `${"{{ site.title.firstname }}"} (${"{{ site.title.nickname }}"}) ${"{{ site.title.lastname }}"}`;
       const cycle = (offset) =>
@@ -17,7 +17,8 @@
 
       let counter = 0;
       const animateTitle = () => {
-        title.innerHTML = `${page} | ${cycle(counter)}`;
+        // title.innerHTML = `${page} | ${cycle(counter)}`;
+        title.innerHTML = `${cycle(counter)}    `;
         counter = (counter + 1) % name.length;
       };
 
