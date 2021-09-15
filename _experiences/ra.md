@@ -3,7 +3,7 @@ with: Interactive Data Lab
 position: Research Assistant
 description: empty
 start: '2018'
-end: present
+end: '2021'
 logo: /assets/images/experiences/cse.png
 description: >
   Contributing to Vega and Vega-Lite project; both are toolkits for creating visualizations.
