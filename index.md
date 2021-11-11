@@ -2,7 +2,7 @@
 layout: home
 ---
 <p>
-  Like <strong><u>G</u></strong>NU is <strong><u>N</u></strong>ot <strong><u>U</u></strong>NIX,
+  Like <strong><u>G</u></strong>NU's <strong><u>N</u></strong>ot <strong><u>U</u></strong>NIX,
   <strong><u>M</u></strong>ICK <strong><u>I</u></strong>s <strong><u>C</u></strong>hanwut <strong><u>K</u></strong>ittivorawong.
 </p>
 <p>
