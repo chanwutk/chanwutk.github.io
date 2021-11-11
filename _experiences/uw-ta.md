@@ -1,6 +1,6 @@
 ---
-with: Paul G. Allen School of Computer Science and Engineering
-position: Teaching Assistant
+with: Paul G. Allen School of Computer Science and Engineering @ UW
+position: Graduate and Undergraduate Teaching Assistant
 description: empty
 start: '2019'
 end: '2021'

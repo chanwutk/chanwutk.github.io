@@ -1,10 +1,10 @@
 ---
-with: Interactive Data Lab
-position: Research Assistant
+with: Interactive Data Lab @ UW
+position: Graduate and Undergraduate Research Assistant
 description: empty
 start: '2018'
 end: '2021'
-logo: /assets/images/experiences/cse.png
+logo: /assets/images/experiences/idl.png
 description: >
   Contributing to Vega and Vega-Lite project; both are toolkits for creating visualizations.
   In Vega, I added support for automated labeling data points in charts.

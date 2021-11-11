@@ -44,7 +44,7 @@ layout: default
   <br/>
   <h2 id="experiences">Working Experiences</h2>
   <ul class="post-list">
-    {%- assign exps_ends = site.experiences | group_by: 'end' | sort: 'end' | reverse -%}
+    {%- assign exps_ends = site.experiences | group_by: 'end' | sort: 'name' | reverse -%}
     {%- for exps_end in exps_ends -%}
       {%- assign exps = exps_end.items | sort: 'start' | reverse -%}
       {%- for exp in exps -%}
