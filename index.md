@@ -2,8 +2,8 @@
 layout: home
 ---
 <p>
-  Like <strong>G</strong>NU is <strong>N</strong>ot <strong>U</strong>NIX,
-  <strong>M</strong>ICK <strong>I</strong>s <strong>C</strong>hanwut <strong>K</strong>ittivorawong.
+  Like <strong><u>G</u></strong>NU is <strong><u>N</u></strong>ot <strong><u>U</u></strong>NIX,
+  <strong><u>M</u></strong>ICK <strong><u>I</u></strong>s <strong><u>C</u></strong>hanwut <strong><u>K</u></strong>ittivorawong.
 </p>
 <p>
   I am a first-year Ph.D. Student in <a href="https://cs.berkeley.edu/">Computer Science</a> at the University of California, Berkeley.
