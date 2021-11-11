@@ -2,6 +2,10 @@
 layout: home
 ---
 <p>
+  Like <strong>GNU</strong> is <strong>N</strong>ot <strong>U</strong>NIX.
+  <strong>MICK</strong> <strong>I</strong>s <strong>C</strong>hanwut <strong>K</strong>ittivorawong.
+</p>
+<p>
   I am a first-year Ph.D. Student in <a href="https://cs.berkeley.edu/">Computer Science</a> at the University of California, Berkeley.
   I am advised by Professor <a href="https://people.eecs.berkeley.edu/~akcheung/">Alvin Cheung</a>.
   I am a part of <a href="https://dsf.berkeley.edu/">Data Systems and Foundations group</a> and <a href="https://rise.cs.berkeley.edu/">RISELab</a>.
