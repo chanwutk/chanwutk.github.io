@@ -13,7 +13,8 @@ layout: home
 </p>
 <p>
   I graduated with Combined Bachelor's/Master's program in Computer Science and Engineering from the University of Washington in 2021.
-  I worked in the <a href="https://idl.cs.washington.edu/">UW Interactive Data Lab</a> as a research assistant.
+  I worked in the <a href="https://idl.cs.washington.edu/">UW Interactive Data Lab</a> as a research assistant,
+  advised by Professor <a href="https://homes.cs.washington.edu/~jheer/">Jeffrey Heer</a>.
   I worked in <a href="https://www.docusign.com/">DocuSign</a> and <a href="https://octoml.ai/">OctoML</a> as a software engineering intern.
   Aside from academic works, I was a volunteered officer of
   <a href="https://www.facebook.com/thaisauw/">Thai Students Association</a
