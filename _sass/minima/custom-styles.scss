@@ -193,6 +193,13 @@ img.my-photo {
   }
 }
 
+.acronym-letter {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2.5px;
+  text-decoration-color: rgb(42, 122, 226);
+}
+
 // Header title animation ----------------------------------------------------------------
 #title-nickname,
 #title-firstname,
