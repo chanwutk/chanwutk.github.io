@@ -52,16 +52,4 @@ layout: default
       {%- endfor -%}
     {%- endfor -%}
   </ul>
-
-  <script>
-    const TITLES_WITH_EMOJIS = false;
-    if (TITLES_WITH_EMOJIS) {
-      const addEmoji = (id, emojis) => document.getElementById(id).innerHTML += ' ' + emojis[Math.floor(Math.random() * emojis.length)];
-      addEmoji('projects', ['&#10024;', '&#127872;', '&#127775;', '&#128293;', '&#128161;'])
-      addEmoji('experiences', ['&#128084;', '&#128188;', '&#128119;'])
-      // addEmoji('publications', ['&#128221;', '&#128220;'])
-      addEmoji('education', ['&#128214;', '&#127890;'])
-      addEmoji('skill', ['&#128295;', '&#128296;'])
-    }
-  </script>
 </div>
