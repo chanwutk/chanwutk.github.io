@@ -1,7 +1,7 @@
 ---
 title: Community Cellular Networks Coverage Visualizer
 page: ./ccn-coverage-vis-paper
-image: assets/images/papers/label.png
+image: assets/images/papers/ccn-coverage-vis.png
 border: true
 priority: 1
 ---
