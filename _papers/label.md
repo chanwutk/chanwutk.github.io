@@ -1,7 +1,7 @@
 ---
 title: Fast and Flexible Overlap Detection for Chart Labeling with Occupancy Bitmap 
 page: https://idl.cs.washington.edu/papers/fast-labels
-image: assets/images/publications/label.png
+image: assets/images/papers/label.png
 border: true
 priority: 1
 ---

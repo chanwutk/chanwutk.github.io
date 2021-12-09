@@ -1,0 +1,8 @@
+---
+title: Community Cellular Networks Coverage Visualizer
+page: ./ccn-coverage-vis-paper
+image: assets/images/papers/label.png
+border: true
+priority: 1
+---
+The design of visaulizations to help understand the coverage of Community Cellular Networks.
