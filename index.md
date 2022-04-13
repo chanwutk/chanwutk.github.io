@@ -2,20 +2,10 @@
 layout: home
 ---
 <p>
-  Like
-  <span class="acronym-letter">G</span>NU's
-  <span class="acronym-letter">N</span>ot
-  <span class="acronym-letter">U</span>NIX,
-  <span class="acronym-letter">M</span>ICK
-  <span class="acronym-letter">I</span>s
-  <span class="acronym-letter">C</span>hanwut
-  <span class="acronym-letter">K</span>ittivorawong.
-</p>
-<p>
   I am a first-year Ph.D. student in <a href="https://cs.berkeley.edu/">Computer Science</a> at the University of California, Berkeley.
   I am advised by Professor <a href="https://people.eecs.berkeley.edu/~akcheung/">Alvin Cheung</a>.
   I am a part of <a href="https://dsf.berkeley.edu/">Data Systems and Foundations group</a> and <a href="https://rise.cs.berkeley.edu/">RISELab</a>.
-  I am interested in Databases, Data Systems, and Data Visualization.
+  I am interested in Programming Tools and Data Visualization.
 </p>
 <p>
   I graduated with Combined Bachelor's/Master's program in Computer Science and Engineering from the University of Washington in 2021.

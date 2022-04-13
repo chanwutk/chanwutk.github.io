@@ -164,7 +164,7 @@ a.link-button:hover {
 img.my-photo {
   width: 200px;
   height: 200px;
-  border-radius: 7%;
+  border-radius: 5%;
 }
 
 @include media-query($on-palm) {
@@ -191,13 +191,6 @@ img.my-photo {
       border: none;
     }
   }
-}
-
-.acronym-letter {
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-thickness: 2.5px;
-  text-decoration-color: rgb(42, 122, 226);
 }
 
 // Header title animation ----------------------------------------------------------------
