@@ -2,10 +2,10 @@
 layout: home
 ---
 <p>
-  I am a first-year Ph.D. student in <a href="https://cs.berkeley.edu/">Computer Science</a> at the University of California, Berkeley.
+  I am a second-year Ph.D. student in <a href="https://cs.berkeley.edu/">Computer Science</a> at the University of California, Berkeley.
   I am advised by Professor <a href="https://people.eecs.berkeley.edu/~akcheung/">Alvin Cheung</a>.
   I am a part of <a href="https://dsf.berkeley.edu/">Data Systems and Foundations group</a> and <a href="https://rise.cs.berkeley.edu/">RISELab</a>.
-  I am interested in Programming Tools and Data Visualization.
+  My research interests are in Data Interaction Tools and Data Visualization Tools.
 </p>
 <p>
   I graduated with Combined Bachelor's/Master's program in Computer Science and Engineering from the University of Washington in 2021.
