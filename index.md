@@ -4,7 +4,8 @@ layout: home
 <p>
   I am a second-year Ph.D. student in <a href="https://cs.berkeley.edu/">Computer Science</a> at the University of California, Berkeley.
   I am advised by Professor <a href="https://people.eecs.berkeley.edu/~akcheung/">Alvin Cheung</a>.
-  I am a part of <a href="https://dsf.berkeley.edu/">Data Systems and Foundations group</a> and <a href="https://sky.cs.berkeley.edu/">Sky Lab</a> (formerly <a href="https://rise.cs.berkeley.edu/">RISE Lab</a>).
+  I am a part of <a href="https://epic.berkeley.edu/">EPIC Data Lab</a> and <a href="https://sky.cs.berkeley.edu/">Sky Lab</a>
+  (formerly <a href="https://rise.cs.berkeley.edu/">RISE Lab</a>).
   I am interested in Programming Tools and Data Visualization.
 </p>
 <p>

@@ -63,7 +63,7 @@ collections:
     output: false
   experiences:
     output: false
-  papers:
+  publications:
     output: false
 
 plugins:
