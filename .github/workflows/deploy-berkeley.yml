@@ -31,8 +31,7 @@ jobs:
       - name: Setup SSH
         run: |
           echo "${{secrets.SSH_SECRET_KEY}}" >> id_rsa
-          ssh-add id_rsa
       - name: Deploy to Berkeley Domain
         run: |
-          ssh -o StrictHostKeyChecking=no ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}} "rm -r ~/public_html"
-          scp -o StrictHostKeyChecking=no -r ./_site ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}}:./public_html
+          ssh -o StrictHostKeyChecking=no -i ./id_rsa ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}} "rm -r ~/public_html"
+          scp -o StrictHostKeyChecking=no -i ./id_rsa -r ./_site ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}}:./public_html
