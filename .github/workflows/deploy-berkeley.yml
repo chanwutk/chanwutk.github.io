@@ -1,0 +1,44 @@
+# Sample workflow for building and deploying a Jekyll site to GitHub Pages
+name: Deploy on Berkeley Domain
+
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: read
+  id-token: read
+
+# Allow one concurrent deployment
+concurrency:
+  group: "deploy-berkeley"
+  cancel-in-progress: true
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - name: Setup SSH
+        run: |
+          echo "${{secrets.SSH_SECRET_KEY}}" >> id_rsa
+          ssh-add id_rsa
+      - name: Deploy to Berkeley Domain
+        run: |
+          ssh -o StrictHostKeyChecking=no ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}} "rm -r ~/public_html"
+          scp -o StrictHostKeyChecking=no -r ./_site ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}}:./public_html
