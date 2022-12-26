@@ -4,7 +4,7 @@ position: Graduate Student Researcher
 description: empty
 start: '2021'
 end: 'present'
-logo: /assets/images/experiences/sky.png
+logo: assets/images/experiences/sky.png
 description: >
   Contirbuting to Apperception, a query language and a database management system for geo-spatial video data.
   I am working on designing the programming interface of Apperception DSL.

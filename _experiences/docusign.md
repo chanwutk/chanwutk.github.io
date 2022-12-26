@@ -4,7 +4,7 @@ position: Software Engineering Intern
 description: empty
 start: "2019"
 end: "2019"
-logo: /assets/images/experiences/docusign.png
+logo: assets/images/experiences/docusign.png
 description: >
   Contributing to designing and developing a data lake platform that extracts, sanitizes, and stores users'/internal
   usage data into Amazon Web Service S3. Then, Data Scientist can query the data to perform analytics.

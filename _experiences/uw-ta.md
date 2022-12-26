@@ -4,7 +4,7 @@ position: Graduate and Undergraduate Teaching Assistant
 description: empty
 start: '2019'
 end: '2021'
-logo: /assets/images/experiences/cse.png
+logo: assets/images/experiences/cse.png
 description: >
   Teaching CSE331 (Software Design and Implementation) and CSE442 (Data Visualization).
   Teaches supplemental materials in quiz section. Grade students' assignments. And, hold
