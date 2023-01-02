@@ -6,5 +6,5 @@ start: '2017'
 end: '2017'
 logo: assets/images/experiences/kasetsart.svg
 description: >
-  todo todo todo todo todo todo todo todo
+  Categorize students' theses in the university's library based on language features of their abstracts.
 ---
