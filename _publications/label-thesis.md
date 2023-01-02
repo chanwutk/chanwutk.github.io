@@ -1,6 +1,6 @@
 ---
 title: Legible Label Layout for Data Visualization, Algorithm and Integration into Vega-Lite
-page: ./label-thesis
+page: https://chanwutk.github.io/label-thesis
 image: assets/images/papers/label-thesis.png
 border: true
 priority: 2
