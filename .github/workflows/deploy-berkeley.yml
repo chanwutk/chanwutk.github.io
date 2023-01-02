@@ -21,17 +21,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
+
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./_site
+
       - name: Setup SSH
         run: |
           echo "${{secrets.SSH_SECRET_KEY}}" >> id_rsa
           chmod 600 id_rsa
+
       - name: Deploy to Berkeley Domain
         run: |
           ssh -o StrictHostKeyChecking=no -i ./id_rsa ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}} "rm -r ~/public_html"
