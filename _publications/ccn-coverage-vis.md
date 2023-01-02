@@ -1,6 +1,6 @@
 ---
 title: Community Cellular Networks Coverage Visualizer
-page: https://chanwutk.github.io/ccn-coverage-vis-paper/ccn-coverage-vis.pdf
+page: https://chanwutk.github.io/ccn-coverage-vis-paper
 image: assets/images/papers/ccn-coverage-vis.png
 border: true
 priority: 3
