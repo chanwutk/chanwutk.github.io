@@ -18,7 +18,7 @@
       lastname.className = "title-stay-right";
 
       let idx = 0;
-      const animate = () => {
+      function animate() {
         idx ^= 1;
         names[idx].style.display = 'initial';
         names[idx].className = "title-slide-in";
@@ -27,12 +27,21 @@
         lastname.className = slideAndStay(positions[idx]);
       };
 
-      setTimeout(() => {
+      let shouldWait = false;
+      function throttledAnimate() {
+        if (shouldWait) return;
+
+        shouldWait = true;
         animate();
-        setInterval(animate, 7000);
+        setTimeout(() => shouldWait = false, 1000);
+      }
+
+      setTimeout(() => {
+        throttledAnimate();
+        setInterval(throttledAnimate, 7000);
       }, 3000);
 
-      currentScript.parentNode.onmouseover = animate;
+      currentScript.parentNode.onmouseover = throttledAnimate;
     })();
   </script>
 </a>
