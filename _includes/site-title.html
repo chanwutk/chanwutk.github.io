@@ -24,6 +24,9 @@
       lastname.className = slideAndStay(positions[idx]);
     };
 
-    setInterval(animate, 10000);
+    setTimeout(() => {
+      animate();
+      setInterval(animate, 7000);
+    }, 3000)
   })();
 </script>
