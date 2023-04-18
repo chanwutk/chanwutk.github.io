@@ -3,7 +3,7 @@
 Gem::Specification.new do |spec|
   spec.name          = "personal-webpage"
   spec.version       = "0"
-  spec.authors       = ["Chanwut Kittivorawong"]
+  spec.authors       = ["Chanwut (Mick) Kittivorawong"]
   spec.email         = ["chanwutk@gmail.com"]
 
   spec.summary       = "My Personal Page"
@@ -18,4 +18,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.1"
 
   spec.add_development_dependency "bundler"
+  spec.add_development_dependency "theme-check"
 end
