@@ -1,32 +1,38 @@
-<span id="title-firstname">{{ site.title.firstname }}</span>
-<span id="title-nickname">{{ site.title.nickname }}</span>
-<span id="title-lastname">{{ site.title.lastname }}</span>
-<script>
-  (() => {
-    const lastname = document.getElementById("title-lastname");
-    const names = [
-      document.getElementById("title-firstname"),
-      document.getElementById("title-nickname"),
-    ];
-    const positions = ['right', 'left'];
-    const slideAndStay = pos => `title-slide-${pos} title-stay-${pos}`;
+<a class="site-title" rel="author" href="{{ '.' | relative_url }}">
+  <span id="title-firstname">{{ site.title.firstname }}</span>
+  <span id="title-nickname">{{ site.title.nickname }}</span>
+  <span id="title-lastname">{{ site.title.lastname }}</span>
 
-    names[1].style.display = 'none';
-    lastname.className = "title-stay-right";
+  <script>
+    (() => {
+      const currentScript = document.currentScript;
+      const lastname = document.getElementById("title-lastname");
+      const names = [
+        document.getElementById("title-firstname"),
+        document.getElementById("title-nickname"),
+      ];
+      const positions = ['right', 'left'];
+      const slideAndStay = pos => `title-slide-${pos} title-stay-${pos}`;
 
-    let idx = 0;
-    const animate = () => {
-      idx ^= 1;
-      names[idx].style.display = 'initial';
-      names[idx].className = "title-slide-in";
-      names[idx ^ 1].className = "title-slide-out";
-      setTimeout(i => names[i].style.display = 'none', 500, idx ^ 1);
-      lastname.className = slideAndStay(positions[idx]);
-    };
+      names[1].style.display = 'none';
+      lastname.className = "title-stay-right";
 
-    setTimeout(() => {
-      animate();
-      setInterval(animate, 7000);
-    }, 3000)
-  })();
-</script>
+      let idx = 0;
+      const animate = () => {
+        idx ^= 1;
+        names[idx].style.display = 'initial';
+        names[idx].className = "title-slide-in";
+        names[idx ^ 1].className = "title-slide-out";
+        setTimeout(i => names[i].style.display = 'none', 500, idx ^ 1);
+        lastname.className = slideAndStay(positions[idx]);
+      };
+
+      setTimeout(() => {
+        animate();
+        setInterval(animate, 7000);
+      }, 3000);
+
+      currentScript.parentNode.onmouseover = animate;
+    })();
+  </script>
+</a>
