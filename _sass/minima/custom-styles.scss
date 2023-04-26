@@ -142,20 +142,20 @@ a.link-button:hover {
   height: 60px;
   align-self: center;
   margin: 10px;
-  filter: inherit;
+  // filter: inherit;
 }
 
 .home-experience-container {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  filter: grayscale(100%);
-  transition: filter 1s;
+  // filter: grayscale(100%);
+  // transition: filter 0.2s;
 }
 
-.home-experience-container:hover {
-  filter: none;
-}
+// .home-experience-container:hover {
+//   filter: none;
+// }
 
 // Introduction --------------------------------------------------------------------------
 .intro-content {
