@@ -22,8 +22,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v2
+      # - name: Setup Pages
+      #   uses: actions/configure-pages@v2
+      - name: Add Base URL
+        run: |
+          echo 'baseurl: "~chanwutk"' >> _config.yml
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
