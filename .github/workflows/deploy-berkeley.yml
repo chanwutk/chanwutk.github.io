@@ -26,7 +26,8 @@ jobs:
       #   uses: actions/configure-pages@v2
       - name: Add Base URL
         run: |
-          cat _config.yml _config_berkeley.yml >> _config.yml
+          cat _config.yml _config.berkeley.yml >> _config.tmp.yml
+          mv _config.tml.yml _config.yml
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
