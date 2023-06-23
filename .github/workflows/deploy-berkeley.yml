@@ -26,7 +26,7 @@ jobs:
       #   uses: actions/configure-pages@v2
       - name: Add Base URL
         run: |
-          echo 'baseurl: "~chanwutk"' >> _config.yml
+          cat _config.yml _config_berkeley.yml >> _config.yml
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
@@ -43,3 +43,6 @@ jobs:
         run: |
           ssh -o StrictHostKeyChecking=no -i ./id_rsa ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}} "rm -r ~/public_html"
           scp -o StrictHostKeyChecking=no -i ./id_rsa -r ./_site ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}}:./public_html
+
+      - name: Clean Up SSH Key
+        run: rm id_rsa
