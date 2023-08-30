@@ -144,6 +144,11 @@ a.link-button:hover {
 }
 
 @include media-query($on-palm) {
+  .home-project-content {
+    padding: 5px;
+    padding-left: 8px;
+  }
+
   .home-project-container {
     width: 100%;
     flex-direction: row;
@@ -154,7 +159,7 @@ a.link-button:hover {
   .home-project-image,
   .home-project-image-with-border {
     width: 120px;
-    height: 120px;
+    height: 100px;
     // height: 240px;
   }
   .home-project-image-with-border {
