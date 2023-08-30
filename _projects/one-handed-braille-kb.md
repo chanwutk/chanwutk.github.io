@@ -5,5 +5,5 @@ image: assets/images/projects/braille-kb.png
 border: true
 hide: true
 priority: 3
+description: An Android keyboard for typing Braille with haptic-feedback simulating raised dots.
 ---
-An Android keyboard for typing Braille with haptic-feedback simulating raised dots.

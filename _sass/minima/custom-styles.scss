@@ -115,7 +115,7 @@ a.link-button:hover {
   flex-direction: column;
   align-items: center;
   margin: 14px;
-  border-radius: 7px/7px;
+  border-radius: 4px/4px;
   border: thin $border-color-02 solid;
 }
 
@@ -137,8 +137,9 @@ a.link-button:hover {
 
 .home-project-container {
   .home-item-title {
-    margin-top: 0.5em;
+    // margin-top: 0.5em;
     align-self: flex-start;
+    font-weight: bold;
   }
 }
 
@@ -146,6 +147,7 @@ a.link-button:hover {
   .home-project-container {
     width: 100%;
     flex-direction: row;
+    align-items: start;
     margin: 10px 0 10px 0;
   }
 
