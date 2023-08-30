@@ -7,7 +7,7 @@ authors: [
   "mick"
 ]
 year: 2021
-venue: Master Thesis
+venue: Master's Thesis
 links: [[Paper, https://chanwutk.github.io/label-thesis]]
 priority: 2
 ---

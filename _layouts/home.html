@@ -33,11 +33,13 @@ layout: default
   </div> {% endcomment %}
 
   <br/>
-  <h2 id="projects">Projects and Contributions</h2>
+  <h2 id="projects">Selected Projects</h2>
   <div class="home-projects">
     {%- assign projects = site.projects | sort: 'priority' -%}
     {%- for project in projects -%}
-      {%- include components/project-thumbnail.html project=project -%}
+      {%- if project.hide != true -%}
+        {%- include components/project-thumbnail.html project=project -%}
+      {%- endif -%}
     {%- endfor -%}
   </div>
 

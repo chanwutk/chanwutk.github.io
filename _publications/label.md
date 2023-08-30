@@ -7,7 +7,7 @@ priority: 1
 authors: [
   "mick",
   [Dominik Moritz, https://www.domoritz.de/],
-  [Kanit 'Ham' Wongsuphasawat, https://kanitw.github.io/],
+  [Kanit Wongsuphasawat, https://kanitw.github.io/],
   [Jeffrey Heer, https://homes.cs.washington.edu/~jheer/]
 ]
 year: 2020
