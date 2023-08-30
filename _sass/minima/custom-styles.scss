@@ -71,6 +71,25 @@ a.link-button:hover {
   }
 }
 
+.home-publication-card-container {
+  margin-bottom: 12px;
+}
+
+.home-publication-title {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.home-publication-author {
+  font-weight: lighter;
+  color: grey !important;
+}
+
+.home-publication-me {
+  font-weight: lighter;
+  color: black;
+}
+
 @include media-query($on-palm) {
   .home-publication-container {
     width: 300px;
