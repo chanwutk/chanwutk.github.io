@@ -71,6 +71,25 @@ a.link-button:hover {
   }
 }
 
+.home-publication-card-container {
+  margin-bottom: 12px;
+}
+
+.home-publication-title {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.home-publication-author {
+  font-weight: lighter;
+  color: grey !important;
+}
+
+.home-publication-me {
+  font-weight: lighter;
+  color: black;
+}
+
 @include media-query($on-palm) {
   .home-publication-container {
     width: 300px;
@@ -125,13 +144,19 @@ a.link-button:hover {
 
 @include media-query($on-palm) {
   .home-project-container {
-    width: 300px;
+    width: 100%;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
   }
 
   .home-project-image,
   .home-project-image-with-border {
-    width: 300px;
-    height: 240px;
+    width: 120px;
+    height: 120px;
+    // height: 240px;
+  }
+  .home-project-image-with-border {
+    border-bottom: none;
   }
 }
 

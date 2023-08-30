@@ -1,7 +1,7 @@
 ---
 title: Arquero-SQL
 page: https://github.com/chanwutk/arquero-sql
-image: assets/images/projects/arquero.svg
+image: assets/images/projects/arquero-sql.png
 border: true
 priority: 2
 ---

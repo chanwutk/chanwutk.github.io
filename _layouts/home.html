@@ -22,7 +22,7 @@ layout: default
       {{ content }}
     </div>
   </div>
-
+{% comment %} 
   <br/>
   <h2 id="publications">Publications</h2>
   <div class="home-publications">
@@ -30,14 +30,25 @@ layout: default
     {%- for publication in publications -%}
       {%- include components/publication-thumbnail.html publication=publication -%}
     {%- endfor -%}
-  </div>
+  </div> {% endcomment %}
 
   <br/>
-  <h2 id="projects">Projects and Contributions</h2>
+  <h2 id="projects">Selected Projects</h2>
   <div class="home-projects">
     {%- assign projects = site.projects | sort: 'priority' -%}
     {%- for project in projects -%}
-      {%- include components/project-thumbnail.html project=project -%}
+      {%- if project.hide != true -%}
+        {%- include components/project-thumbnail.html project=project -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <br/>
+  <h2 id="publications">Publications</h2>
+  <div class="home-publications">
+    {%- assign publications = site.publications | sort: 'year' | reverse -%}
+    {%- for publication in publications -%}
+      {%- include components/publication-card.html publication=publication -%}
     {%- endfor -%}
   </div>
 
