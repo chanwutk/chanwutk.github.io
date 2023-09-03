@@ -5,4 +5,5 @@ authors: [
   "mick",
 ]
 year: 2021
+links: [[Paper, https://chanwutk.github.io/parax-dataloader-paper]]
 ---
