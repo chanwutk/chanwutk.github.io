@@ -10,5 +10,6 @@ authors: [
   [Chenglong Wang, https://chenglongwang.org/],
   [Cong Yan, ""]
 ]
-year: 2022
+year: 2023
+venue: VLDB
 ---
