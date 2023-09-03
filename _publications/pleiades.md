@@ -1,5 +1,5 @@
 ---
-title: Pleiades: Interactive Composing Tools for Vega-Lite Charts
+title: "Pleiades: Interactive Composing Tools for Vega-Lite Charts"
 authors: [
   "mick",
   [Manesh Jhawar, https://github.com/manjhawar96],
