@@ -26,7 +26,7 @@ jobs:
       #   uses: actions/configure-pages@v2
       - name: Add Base URL
         run: |
-          (cat _config.yml ; echo 'baseurl: "~chanwutk"') > _config.yml
+          echo 'baseurl: "~chanwutk"' >> _config.yml
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
