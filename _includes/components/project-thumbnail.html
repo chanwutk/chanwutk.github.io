@@ -18,10 +18,8 @@
     <span class="home-item-description">
       {{ project.description }}
     </span>
-    {% assign first_link = project.links[0] %}
-    <span class="home-item-description">{% include components/material-link.html material=first_link %}</span>
-    {% for lnk in project.links offset:1 %}
-      &nbsp;&nbsp;<span class="home-item-description">{% include components/material-link.html material=lnk %}</span>
+    {% for lnk in project.links %}
+      &ensp;<span class="home-item-description">{% include components/material-link.html material=lnk %}</span>
     {% endfor %}
   </div>
 </div>
