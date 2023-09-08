@@ -12,4 +12,7 @@ authors: [
 ]
 year: 2023
 venue: VLDB
+links: [
+  Paper: https://www.vldb.org/pvldb/vol16/p4116-cheung.pdf
+]
 ---
