@@ -7,7 +7,7 @@ authors: [
   [Alvin Cheung, https://people.eecs.berkeley.edu/~akcheung/]
 ]
 year: 2024
-venue: VLDB (Under Review)
+venue: VLDB
 links: [
   [arXiv, https://arxiv.org/abs/2308.03276],
   [GitHub, https://www.github.com/apperception-db/spatialyze]
