@@ -8,7 +8,7 @@ authors: [
 ]
 year: 2021
 venue: Master's Thesis
-links: [[Paper, https://chanwutk.github.io/label-thesis]]
+links: [[arXiv, https://arxiv.org/abs/2405.10953]]
 priority: 2
 ---
 An integration of an algorithm to layout labels in visualization into Vega-Lite.
