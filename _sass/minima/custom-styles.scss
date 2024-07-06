@@ -230,9 +230,18 @@ img.my-photo {
 .social-media-list {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   li {
+    margin: 5px 5px 5px 5px;
     a {
       border: none;
+      color: black;
+      i {
+        font-size: 1.5em;
+      }
+    }
+    a:hover {
+      color: rgb(86, 86, 86);
     }
   }
 }

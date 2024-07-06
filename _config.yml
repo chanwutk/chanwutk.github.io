@@ -53,6 +53,22 @@ minima:
       instance: gitlab.cs.washington.edu
     - username: chanwutk
       instance: gitlab.com
+    
+    # new social links
+    github_username: chanwutk
+    linkedin_username: chanwut-k
+    x_username: chanwutk
+    scholar_userid: Q9OsSU8AAAAJ
+    orcid_id: 0000-0002-2884-2221
+    # dblp_url: https://dblp.org/pid/284/8705.html
+    # arxiv: ''
+    # semanticscholar_id: 2047935706
+    # research_gate_profile: Chanwut_Kittivorawong
+    # ieee_id: 37088661022
+    # acm_id: 99660995561
+    # scopus_id: 57221955432
+    # stackoverflow_id: 9174154/chanwutk
+
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up

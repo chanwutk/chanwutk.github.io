@@ -1,5 +1,5 @@
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy on Berkeley Domain
+name: Deploy on GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -11,7 +11,7 @@ on:
 
 # Allow one concurrent deployment
 concurrency:
-  group: "deploy-berkeley"
+  group: "deploy"
   cancel-in-progress: true
 
 jobs:
@@ -24,9 +24,6 @@ jobs:
 
       # - name: Setup Pages
       #   uses: actions/configure-pages@v2
-      - name: Add Base URL
-        run: |
-          echo 'baseurl: "~chanwutk"' >> _config.yml
       
       - name: Download fonts
         run: |
@@ -76,17 +73,4 @@ jobs:
         with:
           folder: '_site'
           single-commit: true
-          branch: berkeley
-
-#       - name: Setup SSH
-#         run: |
-#           echo "${{secrets.SSH_SECRET_KEY}}" >> id_rsa
-#           chmod 600 id_rsa
-
-#       - name: Deploy to Berkeley Domain
-#         run: |
-#           ssh -o StrictHostKeyChecking=no -i ./id_rsa ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}} "rm -r ~/public_html"
-#           scp -o StrictHostKeyChecking=no -i ./id_rsa -r ./_site ${{secrets.BERKELEY_USER}}@${{secrets.BERKELEY_HOST}}:./public_html
-
-#       - name: Clean Up SSH Key
-#         run: rm id_rsa
+          branch: gh-pages
