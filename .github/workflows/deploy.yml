@@ -60,12 +60,15 @@ jobs:
 
       - name: Minimize CSS
         run: |
+          ls -lah ./_site/assets/css
           sudo chmod 666 ./_site/assets/css/*
           npm install -g purgecss
-          purgecss                         \
-            --css     ./_site/assets/css/*.min.css \
-            --content ./_site/**/*.html    \
-            --output  ./_site/assets/css
+          purgecss                          \
+            --css      ./_site/assets/css/* \
+            --content  ./_site/**/*.html    \
+            --output   ./_site/assets/css   \
+            --safelist title-slide-right title-slide-left title-stay-right title-stay-left title-slide-out title-slide-in
+          ls -lah ./_site/assets/css
           sudo chmod 644 ./_site/assets/css/*
 
       - name: Publish Website
