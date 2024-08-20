@@ -2,7 +2,7 @@
 layout: home
 ---
 <p style="text-align: justify;">
-  I am a third-year Ph.D. student in <a href="https://cs.berkeley.edu/">Computer Science</a> at the University of California, Berkeley.
+  I am a forth-year Ph.D. student in <a href="https://cs.berkeley.edu/">Computer Science</a> at the University of California, Berkeley.
   I am advised by Professor <a href="https://people.eecs.berkeley.edu/~akcheung/">Alvin Cheung</a>.
   I am a part of <a href="https://epic.berkeley.edu/">EPIC Data Lab</a> and <a href="https://sky.cs.berkeley.edu/">Sky Lab</a>
   (formerly <a href="https://rise.cs.berkeley.edu/">RISE Lab</a>).
