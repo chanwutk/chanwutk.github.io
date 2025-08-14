@@ -2,7 +2,7 @@
 with: Google
 position: Student Researcher (Intern)
 description: empty
-start: '2022025'
+start: '2025'
 end: '2025'
 logo: assets/images/experiences/google.png
 description: >
