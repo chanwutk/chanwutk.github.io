@@ -1,5 +1,5 @@
 ---
-with: OctoML Inc.
+with: OctoAI
 position: Software Engineering Intern
 description: empty
 start: '2020'
