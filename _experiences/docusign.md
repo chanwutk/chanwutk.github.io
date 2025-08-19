@@ -1,5 +1,5 @@
 ---
-with: DocuSign Inc.
+with: DocuSign
 position: Software Engineering Intern
 description: empty
 start: "2019"
