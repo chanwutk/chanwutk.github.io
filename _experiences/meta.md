@@ -1,5 +1,5 @@
 ---
-with: Meta (Meta Recommendation Systems -- Knowledge)
+with: Meta (Meta Recommendation Systems Knowledge Team)
 position: ML Software Engineering Intern
 description: empty
 start: '2026'
