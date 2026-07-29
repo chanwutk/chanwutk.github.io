@@ -2,8 +2,8 @@
 title: "Tetris: Tile-level Sampling for Efficient and High-Fidelity Video Object Tracking"
 authors: [
   "mick",
-  [Alena Chao, ""],
-  [Charlie Si, ""],
+  [Alena Chao, "https://github.com/alenachao"],
+  [Charlie Si, "https://www.linkedin.com/in/charliesi"],
   [Alvin Cheung, https://people.eecs.berkeley.edu/~akcheung/]
 ]
 year: 2026
