@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 618 150">
-  <rect x="0" y="0" width="618" height="150" fill="#000"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-91 -245 800 640">
+  <rect x="-91" y="-245" width="800" height="640" fill="#000"/>
   <defs>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
