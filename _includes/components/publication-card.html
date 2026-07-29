@@ -3,7 +3,7 @@
   {% assign first_author = publication.authors[0] %}
   {% include components/author.html author=first_author %}
   {% for author in publication.authors offset:1 %}
-    <span style="color: lightgray">&nbsp;|&nbsp;</span> {% include components/author.html author=author %}
+    <span style="color: lightgray">&nbsp;&middot;&nbsp;</span> {% include components/author.html author=author %}
   {% endfor %}
   <br/>
   {{publication.venue}} {{publication.year}}.
