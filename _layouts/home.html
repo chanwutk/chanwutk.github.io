@@ -64,4 +64,21 @@ layout: default
       {%- endfor -%}
     {%- endfor -%}
   </ul>
+
+  <br/>
+  <h2 id="mentorship">Mentorship</h2>
+  <h3>Current</h3>
+  <ul class="post-list">
+    {%- assign current_mentees = site.mentees | where: 'status', 'current' -%}
+    {%- for mentee in current_mentees -%}
+      {%- include components/mentee-card.html mentee=mentee -%}
+    {%- endfor -%}
+  </ul>
+  <h3>Former</h3>
+  <ul class="post-list">
+    {%- assign former_mentees = site.mentees | where: 'status', 'former' -%}
+    {%- for mentee in former_mentees -%}
+      {%- include components/mentee-card.html mentee=mentee -%}
+    {%- endfor -%}
+  </ul>
 </div>

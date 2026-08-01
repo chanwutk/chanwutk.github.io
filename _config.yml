@@ -85,6 +85,8 @@ collections:
     output: false
   publications:
     output: false
+  mentees:
+    output: false
 
 plugins:
  - jekyll-seo-tag
