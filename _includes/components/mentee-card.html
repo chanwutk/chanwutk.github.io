@@ -3,7 +3,9 @@
     <p class="home-item-title"><strong>{{ mentee.name }}</strong></p>
     <p>
       <span class="post-meta">{{ mentee.year }}</span>
-      <span class="home-item-description">{{ mentee.project }} {{ mentee.now }}</span>
+      <span class="home-item-description">{{ mentee.project }}
+        <span style="color: lightgray">&nbsp;&middot;&nbsp;</span>
+        {{ mentee.now }}</span>
     </p>
   </div>
 </li>
