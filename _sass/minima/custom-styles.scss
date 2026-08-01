@@ -171,6 +171,33 @@ a.link-button:hover {
   }
 }
 
+// Mentorship ------------------------------------------------------------------------------
+.mentee-list {
+  > li {
+    margin-bottom: 8px;
+  }
+}
+
+.mentee-year {
+  display: inline-block;
+  color: grey;
+  font-weight: lighter;
+  margin-right: 0.4em;
+}
+
+.mentee-list-current .mentee-year {
+  min-width: 2.5em;
+}
+
+.mentee-list-former .mentee-year {
+  min-width: 5.5em;
+}
+
+.mentee-list .home-item-title .home-item-description {
+  font-size: inherit;
+  // font-weight: inherit;
+}
+
 // Experience ----------------------------------------------------------------------------
 .home-experience-logo {
   border-radius: 7%;

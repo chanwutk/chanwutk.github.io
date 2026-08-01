@@ -1,11 +1,14 @@
 <li>
   <div>
-    <p class="home-item-title"><strong>{{ mentee.name }}</strong></p>
-    <p>
-      <span class="post-meta">{{ mentee.year }}</span>
-      <span class="home-item-description">{{ mentee.project }}
+    <p class="home-item-title">
+      <span class="mentee-year">{{ mentee.start_year }}{% if mentee.end_year %} - {{ mentee.end_year }}{% endif %}</span>
+      <strong>{{ mentee.name }}</strong>
+      <span class="home-item-description">
+        &nbsp; &mdash; &nbsp;
+        {{ mentee.project }}
         <span style="color: lightgray">&nbsp;&middot;&nbsp;</span>
-        {{ mentee.now }}</span>
+        {{ mentee.now }}
+      </span>
     </p>
   </div>
 </li>

@@ -1,7 +1,8 @@
 ---
 name: Yongming Ge
 status: former
-year: '2021 - 2024'
-project: Worked on the Sptialyze Project.
-now: Apple
+start_year: 2021
+end_year: 2024
+project: Worked on the Sptialyze Project
+now: Now at Apple
 ---

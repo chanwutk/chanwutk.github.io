@@ -1,7 +1,8 @@
 ---
 name: Yousef Helal
 status: former
-year: '2021 - 2024'
-project: Worked on the Sptialyze Project.
+start_year: 2022
+end_year: 2024
+project: Worked on the Sptialyze Project
 now: ''
 ---

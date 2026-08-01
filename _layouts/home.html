@@ -68,15 +68,15 @@ layout: default
   <br/>
   <h2 id="mentorship">Mentorship</h2>
   <h3>Current</h3>
-  <ul class="post-list">
-    {%- assign current_mentees = site.mentees | where: 'status', 'current' -%}
+  <ul class="post-list mentee-list mentee-list-current">
+    {%- assign current_mentees = site.mentees | where: 'status', 'current' | sort: 'start_year' | reverse -%}
     {%- for mentee in current_mentees -%}
       {%- include components/mentee-card.html mentee=mentee -%}
     {%- endfor -%}
   </ul>
   <h3>Former</h3>
-  <ul class="post-list">
-    {%- assign former_mentees = site.mentees | where: 'status', 'former' -%}
+  <ul class="post-list mentee-list mentee-list-former">
+    {%- assign former_mentees = site.mentees | where: 'status', 'former' | sort: 'end_year' | reverse -%}
     {%- for mentee in former_mentees -%}
       {%- include components/mentee-card.html mentee=mentee -%}
     {%- endfor -%}
