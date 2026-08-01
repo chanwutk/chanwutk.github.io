@@ -3,9 +3,9 @@ title: Legible Label Layout for Data Visualization, Algorithm and Integration in
 page: https://chanwutk.github.io/label-thesis
 image: assets/images/papers/label-thesis.png
 border: true
-authors: [
+authors: [[
   "mick"
-]
+]]
 year: 2021
 venue: Master's Thesis
 links: [[arXiv, https://arxiv.org/abs/2405.10953]]

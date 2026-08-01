@@ -4,12 +4,12 @@ page: https://idl.cs.washington.edu/papers/fast-labels
 image: assets/images/papers/label.png
 border: true
 priority: 1
-authors: [
+authors: [[
   "mick",
   [Dominik Moritz, https://www.domoritz.de/],
   [Kanit Wongsuphasawat, https://kanitw.github.io/],
   [Jeffrey Heer, https://homes.cs.washington.edu/~jheer/]
-]
+]]
 year: 2020
 venue: IEEE VIS
 links: [
