@@ -7,7 +7,7 @@ authors: [[
   [Alvin Cheung, https://people.eecs.berkeley.edu/~akcheung/]
 ]]
 year: 2026
-venue: VLDB
+venue: CIDR
 links: [
   [arXiv, https://arxiv.org/pdf/2609.05756],
   [Site, https://concord-db.github.io/],
