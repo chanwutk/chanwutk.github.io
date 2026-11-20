@@ -6,5 +6,6 @@ start: '2026'
 end: 'present'
 logo: assets/images/experiences/meta.png
 description: >
-  (On-going) Design and implement efficient Video-LLM (with Dr. Litao Hu).
+  Researched, designed, and evaluated high-throughput video LLMs through
+  efficient patch pruner via spatiotemporal relevance (with Dr. Litao Hu).
 ---
