@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="80 64 640 512">
   <title>Puget</title>
   <rect width="800" height="640" fill="#fff"/>
-  <svg x="-170" y="-330" width="1002.5" height="960" viewBox="0 0 802 768">
+  <svg x="-145" y="-320" width="1002.5" height="960" viewBox="0 0 802 768">
   <title>Puget Sound and surrounding coastline</title>
   <desc>Made with Natural Earth land, minor islands, and lake data.</desc>
   <style>
@@ -83,7 +83,7 @@
       <use href="#land" fill="black"/>
     </mask>
   </defs>
-  <g mask="url(#map-fade)">
+  <g>
     <g transform="translate(383 384) scale(1.1) translate(-459 -384)" fill-rule="evenodd" stroke-width="1.15" stroke-linejoin="round">
       <rect class="water" width="844" height="768" mask="url(#water-cutout)"/>
       <use href="#land" class="shore" fill="none"/>
