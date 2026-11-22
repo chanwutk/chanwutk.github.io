@@ -3,7 +3,7 @@ with: Meta (Meta Recommendation Systems Knowledge Team)
 position: ML Software Engineering Intern
 description: empty
 start: '2026'
-end: 'present'
+end: '2026'
 logo: assets/images/experiences/meta.png
 description: >
   Researched, designed, and evaluated high-throughput video LLMs through
